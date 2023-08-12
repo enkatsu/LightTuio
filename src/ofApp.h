@@ -3,7 +3,8 @@
 #include "ofMain.h"
 #include "ofxOpenCv.h"
 #include "ofxGui.h"
-#define MOVIE_DEBUG
+#include "ofxTuioServer.h"
+//#define MOVIE_DEBUG
 #define SCREEN_WIDTH 1280
 #define SCREEN_HEIGHT 720
 
@@ -35,13 +36,15 @@ public:
 #else
     ofVideoGrabber camera;
 #endif
+    bool isStop = true;
+    
     int cameraWidth, cameraHeight;
     ofxCvColorImage colorImg, warpPerspectivedImg, colorBg;
     ofxCvGrayscaleImage grayImg, grayDiff, grayBg;
     ofxCvContourFinder contourFinder;
     bool bLearnBackground = false;
     vector<ofPoint> cornerPoints;
-    float cornerPointRadius = 10;
+    float cornerPointRadius = 20;
     int cornerPointDraggedIndex = -1;
     
     ofxPanel gui;
@@ -50,5 +53,9 @@ public:
     ofxIntSlider blur;
     ofxToggle invert;
     ofxToggle mirror;
+    ofxToggle normalize;
     ofxLabel usage;
+    
+    ofxTuioServer myTuioServer;
+    TuioCursor * cursor;
 };
