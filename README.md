@@ -1,5 +1,7 @@
 # LightTuioSender
 
+![](./docs/img/LightTUIO-logo.png)
+
 ![](./docs/img/demo.gif)
 
 # Build

@@ -9,6 +9,168 @@
 		<string>46</string>
 		<key>objects</key>
 		<dict>
+			<key>01DCC0911400F9ACF5B65578</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxXmlSettings.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxXmlSettings/src/ofxXmlSettings.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>6ECEF0D76BC33727823EADFF</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>50DF87D612C5AAE17AAFA6C0</string>
+					<string>01DCC0911400F9ACF5B65578</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>63B57AC5BF4EF088491E0317</key>
+			<dict>
+				<key>fileRef</key>
+				<string>50DF87D612C5AAE17AAFA6C0</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>50DF87D612C5AAE17AAFA6C0</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxXmlSettings.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>5A4349E9754D6FA14C0F2A3A</key>
+			<dict>
+				<key>fileRef</key>
+				<string>FC5DA1C87211D4F6377DA719</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>FC5DA1C87211D4F6377DA719</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>tinyxmlparser.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxXmlSettings/libs/tinyxmlparser.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>9D44DC88EF9E7991B4A09951</key>
+			<dict>
+				<key>fileRef</key>
+				<string>832BDC407620CDBA568B713D</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>832BDC407620CDBA568B713D</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>tinyxmlerror.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxXmlSettings/libs/tinyxmlerror.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>B21E7E5F548EEA92F368040B</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>tinyxml.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxXmlSettings/libs/tinyxml.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>6E54289412D2D94F45A05113</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>2B40EDA85BEB63E46785BC29</string>
+					<string>B21E7E5F548EEA92F368040B</string>
+					<string>832BDC407620CDBA568B713D</string>
+					<string>FC5DA1C87211D4F6377DA719</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>libs</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>1F4FB5C423662B96ADFDCC0B</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>6E54289412D2D94F45A05113</string>
+					<string>6ECEF0D76BC33727823EADFF</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxXmlSettings</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>933A2227713C720CEFF80FD9</key>
+			<dict>
+				<key>fileRef</key>
+				<string>2B40EDA85BEB63E46785BC29</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>2B40EDA85BEB63E46785BC29</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>tinyxml.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxXmlSettings/libs/tinyxml.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
 			<key>154E7BF2187C8542B32D1FD2</key>
 			<dict>
 				<key>explicitFileType</key>
@@ -80,6 +242,80 @@
 				<string>ofxTuioClient.cpp</string>
 				<key>path</key>
 				<string>../../../addons/ofxTuioWrapper/src/ofxTuioClient.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>B2F92F09B0D7BEB2B4821F1F</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>UdpSender.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxTuioWrapper/src/TUIO/UdpSender.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>C423097F71C95A22A184F457</key>
+			<dict>
+				<key>fileRef</key>
+				<string>C47435564B3EF6F5DC0277BE</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>C47435564B3EF6F5DC0277BE</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>UdpSender.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxTuioWrapper/src/TUIO/UdpSender.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>6DF4F7619A5AE8A6CF28AE25</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>UdpReceiver.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxTuioWrapper/src/TUIO/UdpReceiver.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>85DD11C2BF0F0FD0C0EBDAC9</key>
+			<dict>
+				<key>fileRef</key>
+				<string>FB943BB3A0990C636C64BAF3</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>FB943BB3A0990C636C64BAF3</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>UdpReceiver.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxTuioWrapper/src/TUIO/UdpReceiver.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -172,6 +408,28 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
+			<key>E2C328334EF845E4345266E4</key>
+			<dict>
+				<key>fileRef</key>
+				<string>245DA9800CC3AF40FCC480F7</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>245DA9800CC3AF40FCC480F7</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>TuioPoint.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxTuioWrapper/src/TUIO/TuioPoint.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
 			<key>2C7E3D1F5C83F95BE785A9F8</key>
 			<dict>
 				<key>explicitFileType</key>
@@ -184,6 +442,65 @@
 				<string>TuioObject.h</string>
 				<key>path</key>
 				<string>../../../addons/ofxTuioWrapper/src/TUIO/TuioObject.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>17DC908BEE5E59352213F793</key>
+			<dict>
+				<key>fileRef</key>
+				<string>C0CCE0504D6D69AA155282B1</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>C0CCE0504D6D69AA155282B1</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>TuioObject.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxTuioWrapper/src/TUIO/TuioObject.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>39BEABBF12A7F841224D960F</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>TuioManager.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxTuioWrapper/src/TUIO/TuioManager.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>22BA8718E202F061ACD515E9</key>
+			<dict>
+				<key>fileRef</key>
+				<string>D205DBCA090EAB752EB1D69C</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>D205DBCA090EAB752EB1D69C</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>TuioManager.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxTuioWrapper/src/TUIO/TuioManager.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -202,6 +519,43 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
+			<key>026C2FC309A9C6798496E31E</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>TuioDispatcher.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxTuioWrapper/src/TUIO/TuioDispatcher.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>0136F22402E80AFB2E93CBA1</key>
+			<dict>
+				<key>fileRef</key>
+				<string>1C265081A2A3CF9B26261A58</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>1C265081A2A3CF9B26261A58</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>TuioDispatcher.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxTuioWrapper/src/TUIO/TuioDispatcher.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
 			<key>957A1731AA84B24FB5551B56</key>
 			<dict>
 				<key>explicitFileType</key>
@@ -217,6 +571,28 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
+			<key>E7F319FDA41EC724ADF14894</key>
+			<dict>
+				<key>fileRef</key>
+				<string>89114F581290C61765956141</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>89114F581290C61765956141</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>TuioCursor.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxTuioWrapper/src/TUIO/TuioCursor.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
 			<key>0F6EE0C575F7848AF5406E09</key>
 			<dict>
 				<key>explicitFileType</key>
@@ -229,6 +605,28 @@
 				<string>TuioContainer.h</string>
 				<key>path</key>
 				<string>../../../addons/ofxTuioWrapper/src/TUIO/TuioContainer.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>F2FAD95C655CA8E1638B9DC1</key>
+			<dict>
+				<key>fileRef</key>
+				<string>19B6C7073F6A30635D37C90A</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>19B6C7073F6A30635D37C90A</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>TuioContainer.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxTuioWrapper/src/TUIO/TuioContainer.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -269,22 +667,284 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
+			<key>85A837B272A52C8292954808</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>TuioBlob.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxTuioWrapper/src/TUIO/TuioBlob.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>44FE2A9AD28DAA23336A8B62</key>
+			<dict>
+				<key>fileRef</key>
+				<string>F1E39A6D36CE86638F59ECC6</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>F1E39A6D36CE86638F59ECC6</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>TuioBlob.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxTuioWrapper/src/TUIO/TuioBlob.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>2E6DB8AE592644AACEB91A29</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>TcpSender.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxTuioWrapper/src/TUIO/TcpSender.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E9AAE36467F380326FCE3D76</key>
+			<dict>
+				<key>fileRef</key>
+				<string>BF1308F276015FE1E33FFCC8</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>BF1308F276015FE1E33FFCC8</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>TcpSender.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxTuioWrapper/src/TUIO/TcpSender.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>710D37F20C96ED4E36C43310</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>TcpReceiver.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxTuioWrapper/src/TUIO/TcpReceiver.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>4145393C7AD5B1E81E25ED95</key>
+			<dict>
+				<key>fileRef</key>
+				<string>DA5B4C7A1D6158AAA58BA356</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>DA5B4C7A1D6158AAA58BA356</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>TcpReceiver.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxTuioWrapper/src/TUIO/TcpReceiver.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>F3EADFFD663F13B3524B549B</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>OscSender.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxTuioWrapper/src/TUIO/OscSender.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>F3048B5E29D7D456485BD8E4</key>
+			<dict>
+				<key>fileRef</key>
+				<string>EBF1CEFB6D0DD89C3C9530FE</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>EBF1CEFB6D0DD89C3C9530FE</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>OscSender.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxTuioWrapper/src/TUIO/OscSender.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>25C7DE977634B73E41D7FA3F</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>OscReceiver.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxTuioWrapper/src/TUIO/OscReceiver.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>3DE1DD53D9CACECD8F9BCF10</key>
+			<dict>
+				<key>fileRef</key>
+				<string>DFF5D0CBBB43C799434B59D1</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>DFF5D0CBBB43C799434B59D1</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>OscReceiver.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxTuioWrapper/src/TUIO/OscReceiver.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>CA20745F7AD41198605DD490</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>LibExport.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxTuioWrapper/src/TUIO/LibExport.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>121A59EC227374C62F2F28C7</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>FlashSender.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxTuioWrapper/src/TUIO/FlashSender.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>87F205B2E22E1BFA09D024AF</key>
+			<dict>
+				<key>fileRef</key>
+				<string>16767FE18CFD27779DFFDADA</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>16767FE18CFD27779DFFDADA</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>FlashSender.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxTuioWrapper/src/TUIO/FlashSender.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
 			<key>2CB06001F1E9DA768977091C</key>
 			<dict>
 				<key>children</key>
 				<array>
 					<string>F8DA27E2516D25C9B9514C02</string>
+					<string>16767FE18CFD27779DFFDADA</string>
+					<string>121A59EC227374C62F2F28C7</string>
+					<string>CA20745F7AD41198605DD490</string>
+					<string>DFF5D0CBBB43C799434B59D1</string>
+					<string>25C7DE977634B73E41D7FA3F</string>
+					<string>EBF1CEFB6D0DD89C3C9530FE</string>
+					<string>F3EADFFD663F13B3524B549B</string>
+					<string>DA5B4C7A1D6158AAA58BA356</string>
+					<string>710D37F20C96ED4E36C43310</string>
+					<string>BF1308F276015FE1E33FFCC8</string>
+					<string>2E6DB8AE592644AACEB91A29</string>
+					<string>F1E39A6D36CE86638F59ECC6</string>
+					<string>85A837B272A52C8292954808</string>
 					<string>798926EF5C261BD131393033</string>
 					<string>CF8B8C3D1BA3453601719E3C</string>
+					<string>19B6C7073F6A30635D37C90A</string>
 					<string>0F6EE0C575F7848AF5406E09</string>
+					<string>89114F581290C61765956141</string>
 					<string>957A1731AA84B24FB5551B56</string>
+					<string>1C265081A2A3CF9B26261A58</string>
+					<string>026C2FC309A9C6798496E31E</string>
 					<string>3B416961B7983500235E30B5</string>
+					<string>D205DBCA090EAB752EB1D69C</string>
+					<string>39BEABBF12A7F841224D960F</string>
+					<string>C0CCE0504D6D69AA155282B1</string>
 					<string>2C7E3D1F5C83F95BE785A9F8</string>
+					<string>245DA9800CC3AF40FCC480F7</string>
 					<string>52932D6FFE9979E5366D38AC</string>
 					<string>7C5C82410A5F140A56F72776</string>
 					<string>EB9E16783736394A85957D8E</string>
 					<string>4C1E9A9352BA37ED6D0BB4B9</string>
 					<string>A0232A567BFE5F889B8461E9</string>
+					<string>FB943BB3A0990C636C64BAF3</string>
+					<string>6DF4F7619A5AE8A6CF28AE25</string>
+					<string>C47435564B3EF6F5DC0277BE</string>
+					<string>B2F92F09B0D7BEB2B4821F1F</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -10891,6 +11551,8 @@ fi
 						<string>../../../addons/ofxOsc/src</string>
 						<string>../../../addons/ofxTuioWrapper/src</string>
 						<string>../../../addons/ofxTuioWrapper/src/TUIO</string>
+						<string>../../../addons/ofxXmlSettings/libs</string>
+						<string>../../../addons/ofxXmlSettings/src</string>
 					</array>
 					<key>MACOSX_DEPLOYMENT_TARGET</key>
 					<string>10.9</string>
@@ -11019,6 +11681,8 @@ fi
 						<string>../../../addons/ofxOsc/src</string>
 						<string>../../../addons/ofxTuioWrapper/src</string>
 						<string>../../../addons/ofxTuioWrapper/src/TUIO</string>
+						<string>../../../addons/ofxXmlSettings/libs</string>
+						<string>../../../addons/ofxXmlSettings/src</string>
 					</array>
 					<key>ICON</key>
 					<string>$(ICON_NAME_RELEASE)</string>
@@ -11073,6 +11737,7 @@ fi
 					<string>480A780D8D0308AE4A368801</string>
 					<string>E6053AB7FEC63D5F83825B88</string>
 					<string>557BA18AF00AEB01B8698CB2</string>
+					<string>1F4FB5C423662B96ADFDCC0B</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -13925,6 +14590,8 @@ fi
 						<string>../../../addons/ofxOsc/src</string>
 						<string>../../../addons/ofxTuioWrapper/src</string>
 						<string>../../../addons/ofxTuioWrapper/src/TUIO</string>
+						<string>../../../addons/ofxXmlSettings/libs</string>
+						<string>../../../addons/ofxXmlSettings/src</string>
 					</array>
 					<key>MACOSX_DEPLOYMENT_TARGET</key>
 					<string>10.9</string>
@@ -14073,6 +14740,8 @@ fi
 						<string>../../../addons/ofxOsc/src</string>
 						<string>../../../addons/ofxTuioWrapper/src</string>
 						<string>../../../addons/ofxTuioWrapper/src/TUIO</string>
+						<string>../../../addons/ofxXmlSettings/libs</string>
+						<string>../../../addons/ofxXmlSettings/src</string>
 					</array>
 					<key>MACOSX_DEPLOYMENT_TARGET</key>
 					<string>10.9</string>
@@ -14141,11 +14810,29 @@ fi
 					<string>640279EE111671BD026CB013</string>
 					<string>8F5205AEF8861EF234F0651A</string>
 					<string>92CC00ACE5E3D86CD7D4B9E8</string>
+					<string>87F205B2E22E1BFA09D024AF</string>
+					<string>3DE1DD53D9CACECD8F9BCF10</string>
+					<string>F3048B5E29D7D456485BD8E4</string>
+					<string>4145393C7AD5B1E81E25ED95</string>
+					<string>E9AAE36467F380326FCE3D76</string>
+					<string>44FE2A9AD28DAA23336A8B62</string>
 					<string>B06178045CAB162E28CB9B78</string>
+					<string>F2FAD95C655CA8E1638B9DC1</string>
+					<string>E7F319FDA41EC724ADF14894</string>
+					<string>0136F22402E80AFB2E93CBA1</string>
+					<string>22BA8718E202F061ACD515E9</string>
+					<string>17DC908BEE5E59352213F793</string>
+					<string>E2C328334EF845E4345266E4</string>
 					<string>5559D3ECEB452C309189B587</string>
 					<string>1321C0BC3ACD725DC81D5874</string>
+					<string>85DD11C2BF0F0FD0C0EBDAC9</string>
+					<string>C423097F71C95A22A184F457</string>
 					<string>5D70EAB5E25CD99800CAF838</string>
 					<string>B5B2F1EE373389DA8C5147A7</string>
+					<string>933A2227713C720CEFF80FD9</string>
+					<string>9D44DC88EF9E7991B4A09951</string>
+					<string>5A4349E9754D6FA14C0F2A3A</string>
+					<string>63B57AC5BF4EF088491E0317</string>
 				</array>
 				<key>isa</key>
 				<string>PBXSourcesBuildPhase</string>
@@ -14332,6 +15019,8 @@ fi
 						<string>../../../addons/ofxOsc/src</string>
 						<string>../../../addons/ofxTuioWrapper/src</string>
 						<string>../../../addons/ofxTuioWrapper/src/TUIO</string>
+						<string>../../../addons/ofxXmlSettings/libs</string>
+						<string>../../../addons/ofxXmlSettings/src</string>
 					</array>
 					<key>ICON</key>
 					<string>$(ICON_NAME_DEBUG)</string>
@@ -14484,6 +15173,8 @@ fi
 						<string>../../../addons/ofxOsc/src</string>
 						<string>../../../addons/ofxTuioWrapper/src</string>
 						<string>../../../addons/ofxTuioWrapper/src/TUIO</string>
+						<string>../../../addons/ofxXmlSettings/libs</string>
+						<string>../../../addons/ofxXmlSettings/src</string>
 					</array>
 					<key>ICON</key>
 					<string>$(ICON_NAME_RELEASE)</string>

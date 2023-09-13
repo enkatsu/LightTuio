@@ -4,7 +4,8 @@
 #include "ofxOpenCv.h"
 #include "ofxGui.h"
 #include "ofxTuioServer.h"
-//#define MOVIE_DEBUG
+#include "ofxXmlSettings.h"
+#define MOVIE_DEBUG
 #define SCREEN_WIDTH 1280
 #define SCREEN_HEIGHT 720
 
@@ -54,6 +55,7 @@ public:
     ofxToggle invert;
     ofxToggle mirror;
     ofxToggle normalize;
+    ofxToggle send;
     ofxLabel usage;
     
     ofxTuioServer myTuioServer;

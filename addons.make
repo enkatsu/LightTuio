@@ -3,3 +3,4 @@ ofxCv
 ofxGui
 ofxOsc
 ofxTuioWrapper
+ofxXmlSettings

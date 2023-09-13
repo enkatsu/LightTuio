@@ -10,14 +10,18 @@ void ofApp::setup(){
     cameraWidth = testPlayer.getWidth();
     cameraHeight = testPlayer.getHeight();
 #else
-    std::vector<ofVideoDevice> devices = camera.listDevices();
-    for (auto device : devices) {
-        cout << device.id << endl;
-    }
-    camera.setDeviceID(0);
-    camera.initGrabber(1280, 720);
+    ofxXmlSettings settings;
+    ofSetDataPathRoot("../Resources/data/");
+    settings.loadFile("settings.xml");
+    int deviceID = settings.getValue("settings:camera:id", 0);
+    int deviceWidth = settings.getValue("settings:camera:width", 1280);
+    int deviceHeight = settings.getValue("settings:camera:height", 720);
+    camera.setDeviceID(deviceID);
+    camera.initGrabber(deviceWidth, deviceHeight);
     cameraWidth = camera.getWidth();
     cameraHeight = camera.getHeight();
+    cout << cameraWidth << endl;
+    cout << cameraHeight << endl;
 #endif
     ofRectangle screenRect = ofRectangle(0, 0, ofGetScreenWidth(), ofGetScreenHeight());
     ofRectangle cameraRect = ofRectangle(0, 0, cameraWidth, cameraHeight);
@@ -47,7 +51,8 @@ void ofApp::setup(){
     gui.add(blur.setup("blur", 15, 0, 20));
     gui.add(invert.setup("invert", false));
     gui.add(mirror.setup("mirror", false));
-    gui.add(normalize.setup("normalize", false));
+    gui.add(normalize.setup("normalize coordinate", true));
+    gui.add(send.setup("send TUIO", false));
     
     myTuioServer.start("127.0.0.1", 3333);
     myTuioServer.setVerbose(true);
@@ -99,16 +104,21 @@ void ofApp::update(){
         
         myTuioServer.run();
         
+        if (!send) {
+            if (cursor != nullptr) {
+                myTuioServer.removeCursor(cursor);
+                cursor = nullptr;
+            }
+            
+            return;
+        }
+        
         float maxArea = 0;
         int maxBlobIndex = -1;
         for (int i = 0; i < contourFinder.nBlobs; i++) {
             if (maxArea < contourFinder.blobs.at(i).area) {
                 maxBlobIndex = i;
             }
-        }
-        
-        if (cursor != nullptr && contourFinder.nBlobs == 0) {
-        } else {
         }
         
         if (contourFinder.nBlobs != 0) {
@@ -143,8 +153,10 @@ void ofApp::draw(){
     ofPushStyle();
     for (int i = 0; i < cornerPoints.size(); i++) {
         if (i == cornerPointDraggedIndex) {
+            ofFill();
             ofSetColor(ofColor::red);
         } else {
+            ofNoFill();
             ofSetColor(ofColor::white);
         }
         ofVec2f p = cornerPoints.at(i);
